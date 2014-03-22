@@ -49,22 +49,22 @@ Thanks to report questions to david.drapeau@el2de.com
         'project',
     ],
     'data': [
-        "project_scrum_report.xml",
+        #"project_scrum_report.xml",
         "view/project_view.xml",
-        
-        "security/project_scrum_security.xml",
-        "security/ir.model.access.csv",
-        
-        
-        "wizard/project_scrum_backlog_create_task_view.xml",
-        "wizard/project_scrum_email_view.xml",
-        "wizard/user_story_sandbox_to_backlog_view.xml",
-        
-        "view/project_scrum_menu.xml",
-        "view/project_scrum_release_view.xml",
-        "view/project_scrum_role_view.xml",
-        "view/project_scrum_sandbox_view.xml",
-        "view/project_scrum_view.xml",
+        #
+        #"security/project_scrum_security.xml",
+        #"security/ir.model.access.csv",
+        #
+        #
+        #"wizard/project_scrum_backlog_create_task_view.xml",
+        #"wizard/project_scrum_email_view.xml",
+        #"wizard/user_story_sandbox_to_backlog_view.xml",
+        #
+        #"view/project_scrum_menu.xml",
+        #"view/project_scrum_release_view.xml",
+        #"view/project_scrum_role_view.xml",
+        #"view/project_scrum_sandbox_view.xml",
+        #"view/project_scrum_view.xml",
     ],
     'css': [
         'static/src/css/project_scrum.css',

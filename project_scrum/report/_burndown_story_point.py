@@ -2,8 +2,8 @@
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import time
-import pooler
-from report.render import render
+from openerp import pooler
+from openerp.report import render_report
 
 class external_pdf(render):
     def __init__(self, pdf):

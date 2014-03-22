@@ -18,7 +18,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from osv import osv, fields
+from openerp.osv import fields, osv
 
 class sandbox_transfer_to_backlog(osv.osv_memory):
     _name = 'project.scrum.sandbox.to.backlog'

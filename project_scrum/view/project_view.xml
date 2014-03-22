@@ -7,6 +7,11 @@
             <field name="model">project.project</field>
             <field name="inherit_id" ref="project.edit_project"/>
             <field name="arch" type="xml">
+                <xpath expr="//div[@name='options_active']" position="after">
+                    <field name="is_scrum" class="oe_inline"/>
+                    <label for="is_scrum"/>
+                </xpath>
+                <!--
                 <label for="use_tasks" position="after">
                     <field name="is_scrum" class="oe_inline"/>
                     <label for="is_scrum"/>
@@ -16,6 +21,7 @@
                     <field name="scrum_master_id" attrs="{'invisible':[('is_scrum', '=', False)]}"/>
                     <field name="product_owner_id" attrs="{'invisible':[('is_scrum', '=', False)]}"/>
                 </field>
+                -->
                 <page string="Team" position="after">
                     <page string="Goal" attrs="{'invisible':[('is_scrum', '=', False)]}">
                         <field name="goal"/>
@@ -25,6 +31,7 @@
         </record>
         
         <!-- inherited view of (project.project tree view) -->
+        <!--
         <record model="ir.ui.view" id="view_project_project_tree">
             <field name="name">view.project.project.tree</field>
             <field name="model">project.project</field>
@@ -37,5 +44,6 @@
                 </field>
             </field>
         </record>
+        -->
     </data>
 </openerp>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from osv import fields, osv
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
 
 class projectProjectInehrit(osv.osv):
     _inherit = 'project.project'

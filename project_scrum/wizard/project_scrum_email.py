@@ -19,10 +19,10 @@
 #
 ##############################################################################
 
-from osv import fields, osv
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
 from datetime import datetime
-import tools
+from openerp import tools
 
 class project_scrum_email(osv.osv_memory):
     _name = 'project.scrum.email'

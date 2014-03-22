@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from osv import fields, osv
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
 
 class projectScrumRelease(osv.osv):
     _name = 'project.scrum.release'

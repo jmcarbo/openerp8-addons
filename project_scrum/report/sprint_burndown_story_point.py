@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 import StringIO
-import pooler
+from openerp import pooler
 
-from report.render import render
-from report.interface import report_int
-
+from openerp.report import render_report
+from openerp.report.interface import *
 from datetime import datetime, date, timedelta
 import time
 

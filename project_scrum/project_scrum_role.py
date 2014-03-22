@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 class projectScrumRole(osv.osv):
     _name = 'project.scrum.role'
