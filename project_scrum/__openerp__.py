@@ -6,7 +6,7 @@
     'category': "Project Scrum Management",
     'summary': 'Projects, Scrum',
     'description': """
-Scrum Module for OpenERP 8.0 (developped by David DRAPEAU <david.drapeau@el2de.com.com>)
+Scrum Module for OpenERP 8.0 (developped by David DRAPEAU <david.drapeau@el2de.com>)
 
 This application respects the scrum.org protocol and has been developed and is maintened by ITIL Certified Member (in course of certification).
     * Linked to OpenERP native module 'project'

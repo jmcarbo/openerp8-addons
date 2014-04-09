@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 import StringIO
-import pooler
+#import pooler
 
-from report.render import render
-from report.interface import report_int
+from openerp.report.render import render
+from openerp.report.interface import report_int
+
+#from report.interface import report_int
 
 from pychart import *
 import pychart.legend
-
-import pooler
 
 class external_pdf(render):
     def __init__(self, pdf):

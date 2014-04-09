@@ -13,4 +13,3 @@ class projectProjectInehrit(osv.osv):
     _defaults = {
         'is_scrum': True,
     }
-

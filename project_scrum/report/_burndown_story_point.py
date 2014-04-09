@@ -3,9 +3,12 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import time
 from openerp import pooler
+
+from openerp.report.render import render
+from openerp.report.interface import report_int
+
 from openerp.report import render_report
 from openerp.report import report_sxw
-from common_report_header import common_report_header
 
 class external_pdf(render):
     def __init__(self, pdf):
